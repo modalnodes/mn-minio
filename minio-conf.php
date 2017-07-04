@@ -3,7 +3,7 @@
 Plugin Name: Modal Nodes Minio Configurator
 GitHub Plugin URI: https://github.com/modalnodes/mn-minio
 */
-
+$ciccio
 $minio_url = getenv('MINIO_URL'); //http://cdn.example.com/
 $minio_key = getenv('MINIO_KEY'); //
 $minio_secret = getenv('MINIO_SECRET');
