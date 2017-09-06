@@ -4,7 +4,7 @@ Plugin Name: Modal Nodes Minio Configurator for S3-Uploads (https://github.com/h
 GitHub Plugin URI: https://github.com/modalnodes/mn-minio
 Version: 0.1
 */
-$ciccio ="";
+
 $minio_url = getenv('MINIO_URL'); //http://cdn.example.com/
 $minio_key = getenv('MINIO_KEY'); //
 $minio_secret = getenv('MINIO_SECRET');
