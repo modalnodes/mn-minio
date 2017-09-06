@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Modal Nodes Minio Configurator
+Plugin Name: Modal Nodes Minio Configurator for S3-Uploads (https://github.com/humanmade/S3-Uploads)
 GitHub Plugin URI: https://github.com/modalnodes/mn-minio
 Version: 0.1
 */
