@@ -1,5 +1,5 @@
 # mn-minio
-A Dockerfriendly minio configuration manager for S3-uploads
+A Dockerfriendly minio configuration manager for the S3-uploads Wordpress Plugin (https://github.com/humanmade/S3-Uploads)
 
 ## required environment variables:
 
