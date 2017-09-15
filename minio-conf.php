@@ -22,8 +22,8 @@ function s3_uploads_s3_client_params_runner( $params ) {
 add_filter( 's3_uploads_s3_client_params', 's3_uploads_s3_client_params_runner', 20, 1 );
 
 define( 'S3_UPLOADS_BUCKET', $minio_bucket );
-define( 'S3_UPLOADS_KEY', $minio_key );
-define( 'S3_UPLOADS_SECRET', $minio_secret );
+define( 'key', $minio_key );
+define( 'secret', $minio_secret );
 define( 'S3_UPLOADS_REGION', 'us-east-1' );
 define( 'S3_UPLOADS_BUCKET_URL', $minio_bucket_url);
 
