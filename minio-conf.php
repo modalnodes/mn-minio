@@ -16,6 +16,7 @@ if(!$minio_bucket_url){
 }
 
 $minio_bucket_url = str_replace("//","/",$minio_bucket_url);
+$minio_bucket_url = str_replace(":/","://",$minio_bucket_url); \\horrible
 
 define('S3_UPLOADS_BUCKET', $minio_bucket);
 define('S3_UPLOADS_KEY', $minio_key);
